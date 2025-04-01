@@ -1,5 +1,5 @@
+# filepath: c:\Users\ishan\Desktop\BigBinary\React\smile-cart\.husky\pre-commit
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
-. "$(dirname "$0")/helpers/lint_staged.sh"
 
-lint_staged_files
+npx lint-staged
